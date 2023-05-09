@@ -13,13 +13,14 @@
   <h2>Por favor, confirmar asistencia:</h2>
 
   <form class="formulario">
-    Nombre <input type="text" name="name" id="name">
+    Nombre <input type="text" name="name" id="nombre"><!--Se nombre id en español-->
     <br />
-    Edad <input type="number" name="age" id="age">
+    Edad <input type="number" name="age" id="edad"><!--Se nombre id en español-->
     <br />
 
     Nacionalidad
-    <select name="nationality" id="nationality">
+    <br><!--Se agrega un salto de línea-->
+    <select name="nationality" id="nacionalidad"><!--Se nombre id en español-->
       <option value="ar">Argentina</option>
       <option value="mx">Mexicana</option>
       <option value="per">Peruana</option>
@@ -31,10 +32,11 @@
 
   <div>
     <h2>Lista de invitados</h2>
+    <ul id="elemento-lista"></ul><!--Se agrega etiqueta para lista e id-->
 
   </div>
 
-  <script src="../formulario.js"></script>
+  <script src="./formulario.js"></script>
 </body>
 
 </html>
