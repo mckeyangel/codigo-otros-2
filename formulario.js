@@ -8,7 +8,7 @@ formulario.addEventListener("submit",function (e) {//Se corrige evento a addEven
   var e = formulario.elements[1];
   var na = formulario.elements[2];
 
-  var nombre = n.value;//Se agrega ; líneas 12 y 13
+  var nombre = n.value.trim();//Se agrega .trim() para evitar que se se llene solo con espacios  y se agregan ; líneas faltantes
   var edad = e.value;
 
   var i = na.selectedIndex;//Se agrega ; a las siguientes líneas
